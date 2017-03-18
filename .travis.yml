@@ -1,9 +1,9 @@
 language: node_js
 node_js: node
-# deploy:
-#   provider: heroku
-#   api_key:
-#     secure: l1cunEa3k8T73gOstFpYaL4lOy6zASfaViEPjmWP0wzW/PIqF1H2xkKZahKj0t9KFzhpkdPkdDUqUI4Zsvxl/sd7SmSYGtBAzF8Gv6y3tT6Sag54JBYGHc7KVnd3YVf0ZCZZTWtKSL2dcawQg3nd3eaIwd2Yk0Nbd96Vu1/rsCi8yB62OJJYbHeAEtoijlaudeQcPrzdgZQVn0FyTXaLW7D2Kgla69znCdV3a0FCCA6amHI4/a9EZiL5ygrPHYWYI1Hz5/r/k6Qc3L4drlj6HSNgmKMubCnD4nStkaRvpE++s8aaaaKe0kMULQRF+9V6/9nE54cBJo5BchzUg08208lOVqLtTAZztwNqtofkXszeiJU+oC4zwY03sjFrvOjHx56xjs3KG8tlrJvmKqqmLCSrG7QoQnIc3IWjdQAlsiLPQHUHtmfvDWx4JYUCALYYFqxM6P8j61VM3dVghs165HRRdQI9A0xkfxduK4n+QiMbUQuHYSPgT/Gr4w79qh3hlUFs+ksmP6GQn+p/eJCCtg/qWmbyMFtoRTfC3+rXLxGZvg9v/vI1VFkTxhamKdsUmgT1R3w/kKHksl8gk/yF4Ju92ycNuNJP+gu2lHO+DAMPrfLqmZY7Me7ws4/gL5VePmXGygxWQicKL1sb1Zz1B7nMVrfn3O3pRXVFOqfpSvg=
-#   app: shrouded-ravine-93286
-#   on:
-#     repo: cfv7/node-shopping-list-integration-tests
+deploy:
+  provider: heroku
+  api_key:
+    secure: gaUZcMfVp5L5vBytdccP6mxaVGyKm95HstSD0k+mN/xN+LF5QMHbA2xuhAVHg06IWA4mB7FvtTFRLrjaZktUxSRsJFEjAo+SIX9oLqiiH2kNhQoiO9VHSRVYfXmno+lceMOn2uZrPJhGdD4gIgqIvs6Zl4UFliX5sfEjOHifQw7xn2GMIJh6neVEzZ5NrABUNLBc8KzxP+ScOcODi7cwKLtWw4DIfFaA5rEfsWo4EwWoLWAjzJUMEMW5jQ2qZh/9gr80aWDvtihHsS6pTLLGogKBBEETmUDj1tW0FlvpthI3m6Oq1x+DiBNQC1NIvAjgxUoCv7kG1MCesUfLlIOAIXdQOFSsB6hrvvfCvOwDbwtxeP7h/O134praj46L2O2lgHBALQFvKVSAalPAze0h/HbKl/ryZKPmWMX1qkjAfUyNb6guqCU0KX2CzXxwPynFSajq5uRbiOiZR3WibgS/oB9qJ3xddyVew9K93XJId4J2QShgRtOP03V5zDSSdozrtTIIFCIaTOtyvO0zus4PHCbOheBb+W9mM6ssaamO4zyjSEqOVlJ1Zahqgn3rjNJeDFl+W1ZneA8GR8Nb3SZE9vtpq6A+Yk3VXdvKDP+w3Mlis86RxeeblBTa6drwpgNrn+ZbI0/lq2/bVh4r1k+UrMbym4RggoPiKiTtpH+V5UA=
+  app: evening-garden-26276
+  on:
+    repo: cfv7/node-shopping-list-integration-tests
